@@ -6,7 +6,7 @@ pre {
 
 .uk-navbar-nav>li>a {
 	color:#000;
-	letter-spacing:.1em;
+	letter-spacing:.15em;
 }
 .uk-button.uk-button-primary, .uk-button.uk-button-default, .uk-button.uk-button-secondary {
 	border-radius:50px;
