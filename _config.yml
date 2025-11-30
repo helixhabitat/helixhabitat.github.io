@@ -55,7 +55,15 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 
 
 # 5. Collections
-# Not using collections at this time
+collections:
+  portfolio_items:
+    title: Portfolio Items
+    output: true
+    permalink: "/portfolio/:path/"
+  products:
+    title: Shop
+    output: true
+    permalink: "/products/:path/"
 # 6. Jekyll collections settings
 # Not using collections at this time
 
