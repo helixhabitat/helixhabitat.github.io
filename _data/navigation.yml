@@ -3,6 +3,8 @@
 main:
   - title: "SHOP"
     url: /shop
+  - title: "PORTFOLIO"
+    url: /portfolio
   - title: "BLOG"
     url: /blog
   - title: "FAQ"
@@ -12,6 +14,8 @@ main:
 mobile:
   - title: "SHOP"
     url: /shop
+  - title: "PORTFOLIO"
+    url: /portfolio
   - title: "BLOG"
     url: /blog
   - title: "FAQ"
