@@ -10,7 +10,7 @@ permalink: /faq
 <li class="uk-open">
 <a class="uk-accordion-title" href="#">What is a zome?</a>
 <div class="uk-accordion-content">
-<p>A zome is a 3D architectural structure based on geometric shapes found in nature, typically made from a series of diamond or trapezoid-shaped panels arranged in spiraling symmetry. Their flowing geometry creates a strong, stable shell and a naturally beautiful interior.</p>
+<p>A zome is a 3D architectural structure based on geometric shapes found in nature, typically made from a series of diamond or rhombus-shaped panels arranged in spiraling symmetry. Their flowing geometry creates a strong, stable shell and a naturally beautiful interior.</p>
 </div>
 </li>
 
