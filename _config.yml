@@ -60,14 +60,14 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 # Not using collections at this time
 
 # 7. Site settings
-name: miniml
-title: MINIML
+name: Helix Habitat
+title: Helix Habitat Home
 author: Isaac Horton
-email: st4rdusdt@gmail.com
+email: zomebuilder@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability consultant.
-baseurl: "/miniml" # the subpath of your site, e.g. /blog
-url: "https://st4rlab.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://helixhabitat.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 avatar: /assets/site-icon.png #path/to/avatar.png
 lang: en
 locale: en_US
@@ -76,7 +76,7 @@ to_top: true
 
 disqus: ""
 twitter: "kre8t_"
-github: "st4rlab"
+github: "helixhabitat"
 fb_app_id: "" # This is needed for FB Cards to work.
 google_analytics: "G-KZ1JS263PW"
 
