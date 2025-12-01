@@ -1,6 +1,7 @@
 ---
 title: 16' Zome Blueprint & 3d Model Package
 date: 2025-11-30 08:55:30 -08:00
+layout: product
 tags:
 - zome
 - plans

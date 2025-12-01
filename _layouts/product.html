@@ -3,10 +3,6 @@ layout: default
 ---
 <div class="uk-container-expand uk-margin-left uk-margin-right">
 
-  <header>
-    <h2>{{ page.title }}</h2>
-
-  </header>
 
   <hr>
   <div class="uk-container">
@@ -22,6 +18,9 @@ layout: default
     </div>
   <div class="uk-width-1-2@m">
 
+      <header>
+        <h2>{{ page.title }}</h2>
+      </header>
   <section class="channel-description">
     {{ content }}
     {% if page.product_url %}
