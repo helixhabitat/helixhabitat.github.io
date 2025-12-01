@@ -10,12 +10,17 @@ subheading: Products for Zomes and Domes
   <div class="portfolio-grid uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
     {% for product in site.products reversed %}
     <div>
-    <div class="channel-card uk-box-shadow-medium">
+    <div class="uk-card uk-card-default uk-box-shadow-medium">
+      <div class="uk-card-media-top">
       <a href="{{ product.url }}">
         {% if product.image %}
         <img src="{{ product.image }}" alt="{{ product.title }} logo">
         {% endif %}
       </a>
+      </div>
+      <div class="uk-card-body uk-background-muted">
+        <a href="{{ product.url }}">{{ product.title }}</a>
+        </div>
     </div>
     </div>
     {% endfor %}
