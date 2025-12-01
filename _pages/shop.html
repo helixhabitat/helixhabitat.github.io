@@ -6,29 +6,27 @@ subheading: Products for Zomes and Domes
 ---
 
 <div class="uk-container uk-margin">
-  <h4>Products</h4>
-  <div class="portfolio-grid uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid>
+  <h4>Zome Plans</h4>
+  <div class="portfolio-grid uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid>
     {% for product in site.products reversed %}
     <div>
       <div class="uk-card uk-card-small uk-box-shadow-medium">
-        <div class="uk-card-media-top">
+        <div class="uk-inline">
           <a href="{{ product.url }}">
             {% if product.image %}
             <img src="{{ product.image }}" alt="{{ product.title }} logo">
             {% endif %}
+            <div class="uk-overlay uk-position-top"><span class="uk-label uk-text-large">{{ product.price }}</span></div>
           </a>
         </div>
         <div uk-grid>
-          <div class="uk-width-1-2">
+          <div class="uk-card-body">
             <a href="{{ product.url }}">{{ product.title }}</a>
           </div>
-          <div class="uk-width-1-2">
-            <span class="uk-text-bold uk-text-large">{{ product.price }}</span>
-          </div>
+
         </div>
       </div>
-      {% endfor %}
     </div>
-
-
+    {% endfor %}
   </div>
+</div>
